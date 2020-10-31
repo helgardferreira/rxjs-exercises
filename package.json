@@ -1,0 +1,18 @@
+{
+  "name": "helgard-rxjs-exercises",
+  "version": "1.0.0",
+  "description": "Working through some RxJS exercises to learn the Observable Design Pattern",
+  "scripts": {
+    "clean": "del out\\*"
+  },
+  "author": "Helgard R. Ferreira",
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "typescript": "^4.0.5"
+  }
+}
