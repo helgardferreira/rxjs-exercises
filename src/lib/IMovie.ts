@@ -21,3 +21,9 @@ export interface IMovieTitle {
   id: number
   title: string
 }
+
+export interface IMovieBoxArt {
+  id: number
+  title: string
+  boxart: string
+}

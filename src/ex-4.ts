@@ -1,6 +1,6 @@
 declare global {
   interface Array<T> {
-    myMap<U>(projectionFn: (item: T, index: number, source: T[]) => U): Array<U>
+    myMap<U>(projectionFn: (item: T, index: number, source: T[]) => U): U[]
   }
 }
 
