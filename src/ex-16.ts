@@ -49,6 +49,10 @@ Array.prototype.myReduce = function (combiner, initialValue) {
 /* [1, 2, 3].myReduce(function (accumulatedValue, currentValue) {
   return accumulatedValue + currentValue
 }, 0)[0] === 6 */
-// [1,2,3].reduce(function(accumulatedValue, currentValue) { return accumulatedValue + currentValue; }, 10)[0] === 16;
+/* console.log(
+  [1, 2, 3].myReduce(function (accumulatedValue, currentValue) {
+    return accumulatedValue + currentValue
+  }, 10)[0] === 16
+) */
 
 export {}

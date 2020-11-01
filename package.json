@@ -7,9 +7,11 @@
   },
   "author": "Helgard R. Ferreira",
   "dependencies": {
+    "jQuery": "^1.7.4",
     "rxjs": "^6.6.3"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.4",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "eslint": "^7.12.1",
